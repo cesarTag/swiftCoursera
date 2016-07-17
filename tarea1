@@ -1,0 +1,19 @@
+import UIKit
+
+var array = 0...100
+
+for value in array {
+	
+	if value % 2 == 0
+		print("#\(value) par!!!")
+	else{
+		print("#\(value) impar!!!")
+		if value % 5 == 0
+			print("#\(value) Bingo!!!")
+	}
+	
+	switch value {
+		case 30...40: print("#\(value) Viva Swift!!!")
+		default : continue
+	}
+}
